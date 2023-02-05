@@ -1,0 +1,109 @@
+body{
+    animation: fadeIn1 2s;
+}
+@keyframes fadeIn1 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    left: 5px !important;
+    right: 5px !important;
+}
+.lightbg{
+    background-color: #F5F5F5;
+}
+#circle_section{
+    padding-top:20px !important;
+    padding-bottom: 20px !important;
+    position: relative;
+}
+
+#circle_img{
+    width:600px;
+    height:600px;
+    border-radius: 50% !important;
+    filter:blur(2px);
+    filter:brightness(50%);   
+}
+
+.first_text{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top:45%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Title{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+.subtitle{
+    font-family: 'Lato', sans-serif;
+}
+
+#About_Content{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#PortraitPhoto{
+    width:300px;
+    height:450px;
+    border-radius: 30%;
+}
+
+.footer{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.text-about{
+    text-align: left !important;
+    font-family: 'Lato', sans-serif;
+}
+.icon{
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.footer-logo{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.projects_display {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.ProjectContainer a.active{
+    color:black;
+}
+
+.ProjectContainer a:link{
+    text-decoration: none;
+}
+.projects_display h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ssProject{
+    opacity:1;
+    width:300px !important;
+    height:150px !important;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ProjectContainer:hover .ssProject{
+    opacity: 0.3;
+}
